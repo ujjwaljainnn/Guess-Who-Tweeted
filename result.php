@@ -6,7 +6,7 @@
 <body>
     <?php
         session_start();
-        if(isset($_SESSION['attempt'])){
+        if(isset($_SESSION['attempt']) || isset($_SESSION['score'])){
             echo '
             <div id = "success" class = "container">
             <h1>You got ' . $_SESSION['score'] . ' right out of '. $_SESSION['attempt'] . ' tweets</h1>

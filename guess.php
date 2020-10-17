@@ -1,5 +1,10 @@
 <?php  
     /**
+     * This file is particulary specified for KAnye VS Musk game and 
+     * not mixed with the general user API because the latter is an
+     * optional part of the game while main game is about Kanye and Musk 
+     */
+    /**
      * The following if loop checks if the user is in
      * a session which start by visiting our index.php page, 
      * if yes, it continues to play the game
